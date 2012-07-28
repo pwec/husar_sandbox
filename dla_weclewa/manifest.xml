@@ -1,0 +1,17 @@
+<package>
+  <description brief="dla_weclewa">
+
+     dla_weclewa
+
+  </description>
+  <author>Zbawiciel</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/dla_weclewa</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+
+</package>
+
+
