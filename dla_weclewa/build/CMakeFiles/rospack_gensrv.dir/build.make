@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zbawiciel/ros_workspace/lunabotics/dla_weclewa
+CMAKE_SOURCE_DIR = /home/zbawiciel/ros_workspace/lunabotics/sandbox/dla_weclewa
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zbawiciel/ros_workspace/lunabotics/dla_weclewa/build
+CMAKE_BINARY_DIR = /home/zbawiciel/ros_workspace/lunabotics/sandbox/dla_weclewa/build
 
 # Utility rule file for rospack_gensrv.
 
@@ -54,6 +54,6 @@ CMakeFiles/rospack_gensrv.dir/clean:
 .PHONY : CMakeFiles/rospack_gensrv.dir/clean
 
 CMakeFiles/rospack_gensrv.dir/depend:
-	cd /home/zbawiciel/ros_workspace/lunabotics/dla_weclewa/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zbawiciel/ros_workspace/lunabotics/dla_weclewa /home/zbawiciel/ros_workspace/lunabotics/dla_weclewa /home/zbawiciel/ros_workspace/lunabotics/dla_weclewa/build /home/zbawiciel/ros_workspace/lunabotics/dla_weclewa/build /home/zbawiciel/ros_workspace/lunabotics/dla_weclewa/build/CMakeFiles/rospack_gensrv.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zbawiciel/ros_workspace/lunabotics/sandbox/dla_weclewa/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zbawiciel/ros_workspace/lunabotics/sandbox/dla_weclewa /home/zbawiciel/ros_workspace/lunabotics/sandbox/dla_weclewa /home/zbawiciel/ros_workspace/lunabotics/sandbox/dla_weclewa/build /home/zbawiciel/ros_workspace/lunabotics/sandbox/dla_weclewa/build /home/zbawiciel/ros_workspace/lunabotics/sandbox/dla_weclewa/build/CMakeFiles/rospack_gensrv.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rospack_gensrv.dir/depend
 
