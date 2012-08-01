@@ -1,0 +1,15 @@
+/home/justyna/ros_workspace/sandbox/nav_new_py/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir
+/home/justyna/ros_workspace/sandbox/nav_new_py/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir
+/home/justyna/ros_workspace/sandbox/nav_new_py/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir
+/home/justyna/ros_workspace/sandbox/nav_new_py/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir
+/home/justyna/ros_workspace/sandbox/nav_new_py/build/CMakeFiles/clean-test-results.dir
+/home/justyna/ros_workspace/sandbox/nav_new_py/build/CMakeFiles/rosbuild_precompile.dir
+/home/justyna/ros_workspace/sandbox/nav_new_py/build/CMakeFiles/rosbuild_premsgsrvgen.dir
+/home/justyna/ros_workspace/sandbox/nav_new_py/build/CMakeFiles/rospack_genmsg.dir
+/home/justyna/ros_workspace/sandbox/nav_new_py/build/CMakeFiles/rospack_genmsg_libexe.dir
+/home/justyna/ros_workspace/sandbox/nav_new_py/build/CMakeFiles/rospack_gensrv.dir
+/home/justyna/ros_workspace/sandbox/nav_new_py/build/CMakeFiles/test.dir
+/home/justyna/ros_workspace/sandbox/nav_new_py/build/CMakeFiles/test-future.dir
+/home/justyna/ros_workspace/sandbox/nav_new_py/build/CMakeFiles/test-results.dir
+/home/justyna/ros_workspace/sandbox/nav_new_py/build/CMakeFiles/test-results-run.dir
+/home/justyna/ros_workspace/sandbox/nav_new_py/build/CMakeFiles/tests.dir

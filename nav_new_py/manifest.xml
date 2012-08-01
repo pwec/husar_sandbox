@@ -1,0 +1,16 @@
+<package>
+  <description brief="nav_new_py">
+
+     nav_new_py
+
+  </description>
+  <author>Justyna K</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/nav_new_py</url>
+  <depend package="rospy"/>
+  <depend package="tf"/>
+
+</package>
+
+
