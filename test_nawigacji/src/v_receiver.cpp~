@@ -1,0 +1,24 @@
+#include <ros/ros.h>
+#include <geometry_msgs/Twist.h>
+
+
+void current_coordinates(geometry_msgs::Vector3& p, geometry_msgs::Twist v){
+	p.x+=0.02*v.linear.x;
+	p.y+=0.02*v.linear.y;	
+	p.z+=0.02*v.linear.z;
+	ROS_INFO("Current position:\t", p.x, p.y);
+}
+
+
+int main(int argc, char **argv){
+
+	ros::init(argc, argv, "v_receiver");
+	ros::NodeHandle n;
+	geometry_msgs::Vector3 p;
+	p.x=p.y=p.z=0.0;
+	
+	ros::Subscriber sub = n.subscribe("v_sender", 1000, current_coordinates);
+	ros::spin();
+
+  return 0;
+}

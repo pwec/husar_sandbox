@@ -1,0 +1,17 @@
+/home/justyna/ros_workspace/test_nawigacji/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir
+/home/justyna/ros_workspace/test_nawigacji/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir
+/home/justyna/ros_workspace/test_nawigacji/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir
+/home/justyna/ros_workspace/test_nawigacji/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir
+/home/justyna/ros_workspace/test_nawigacji/build/CMakeFiles/clean-test-results.dir
+/home/justyna/ros_workspace/test_nawigacji/build/CMakeFiles/odom.dir
+/home/justyna/ros_workspace/test_nawigacji/build/CMakeFiles/rosbuild_precompile.dir
+/home/justyna/ros_workspace/test_nawigacji/build/CMakeFiles/rosbuild_premsgsrvgen.dir
+/home/justyna/ros_workspace/test_nawigacji/build/CMakeFiles/rospack_genmsg.dir
+/home/justyna/ros_workspace/test_nawigacji/build/CMakeFiles/rospack_genmsg_libexe.dir
+/home/justyna/ros_workspace/test_nawigacji/build/CMakeFiles/rospack_gensrv.dir
+/home/justyna/ros_workspace/test_nawigacji/build/CMakeFiles/test.dir
+/home/justyna/ros_workspace/test_nawigacji/build/CMakeFiles/test-future.dir
+/home/justyna/ros_workspace/test_nawigacji/build/CMakeFiles/test-results.dir
+/home/justyna/ros_workspace/test_nawigacji/build/CMakeFiles/test-results-run.dir
+/home/justyna/ros_workspace/test_nawigacji/build/CMakeFiles/tests.dir
+/home/justyna/ros_workspace/test_nawigacji/build/CMakeFiles/vel.dir

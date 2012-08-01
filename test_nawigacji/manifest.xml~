@@ -1,0 +1,17 @@
+<package>
+  <description brief="test_nawigacji">
+
+     test_nawigacji
+
+  </description>
+  <author>Justyna K</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/test_nawigacji</url>
+  <depend package="geometry_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="transform_broadcaster"/>
+
+</package>
+
+
