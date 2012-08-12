@@ -1,0 +1,18 @@
+<package>
+  <description brief="lrstwut_dead_reckoning">
+
+     lrstwut_dead_reckoning - dead reckoning example node
+
+  </description>
+  <author>Piotr Weclewski [weclewski.piotr@gmail.com]</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/lrstwut_dead_reckoning</url>
+  <depend package="roscpp"/>
+  <depend package="nav_msgs"/>
+  <depend package="std_msgs"/>
+  <depend package="tf"/>
+
+</package>
+
+
