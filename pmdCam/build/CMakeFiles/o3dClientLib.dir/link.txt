@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../lib/libo3dClientLib.a  CMakeFiles/o3dClientLib.dir/src/O3DClientLib/source/communication/clientsocket.o CMakeFiles/o3dClientLib.dir/src/O3DClientLib/source/O3DClient.o CMakeFiles/o3dClientLib.dir/src/O3DClientLib/source/o3dCompleteData.o CMakeFiles/o3dClientLib.dir/src/O3DClientLib/source/o3dCameraSettings.o CMakeFiles/o3dClientLib.dir/src/O3DClientLib/source/o3dDataTypes.o
+/usr/bin/ranlib ../lib/libo3dClientLib.a

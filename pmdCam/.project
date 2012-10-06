@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>pmdCam-RelWithDebInfo@pmdCam</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/shaw/fuerte_workspace/sandbox/lunabotics/pmdCam</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/shaw/fuerte_workspace/sandbox/lunabotics/pmdCam</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IFMcam</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IFMcam/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IFMcam/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IFMcam/Source Files/ifmcam.cpp</name>
+			<type>1</type>
+			<location>/home/shaw/fuerte_workspace/sandbox/lunabotics/pmdCam/src/ifmcam.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IFMcam/Source Files/o3dcam.cpp</name>
+			<type>1</type>
+			<location>/home/shaw/fuerte_workspace/sandbox/lunabotics/pmdCam/src/o3dcam.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IFMcam/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IFMcam/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IFMcam/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IFMoffline</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IFMoffline/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IFMoffline/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IFMoffline/Source Files/ifmoffline.cpp</name>
+			<type>1</type>
+			<location>/home/shaw/fuerte_workspace/sandbox/lunabotics/pmdCam/src/ifmoffline.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IFMoffline/Source Files/o3dcam.cpp</name>
+			<type>1</type>
+			<location>/home/shaw/fuerte_workspace/sandbox/lunabotics/pmdCam/src/o3dcam.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IFMoffline/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IFMoffline/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] IFMoffline/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] o3dClientLib</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] o3dClientLib/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] o3dClientLib/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] o3dClientLib/Source Files/clientsocket.cpp</name>
+			<type>1</type>
+			<location>/home/shaw/fuerte_workspace/sandbox/lunabotics/pmdCam/src/O3DClientLib/source/communication/clientsocket.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] o3dClientLib/Source Files/O3DClient.cpp</name>
+			<type>1</type>
+			<location>/home/shaw/fuerte_workspace/sandbox/lunabotics/pmdCam/src/O3DClientLib/source/O3DClient.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] o3dClientLib/Source Files/o3dCompleteData.cpp</name>
+			<type>1</type>
+			<location>/home/shaw/fuerte_workspace/sandbox/lunabotics/pmdCam/src/O3DClientLib/source/o3dCompleteData.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] o3dClientLib/Source Files/o3dCameraSettings.cpp</name>
+			<type>1</type>
+			<location>/home/shaw/fuerte_workspace/sandbox/lunabotics/pmdCam/src/O3DClientLib/source/o3dCameraSettings.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] o3dClientLib/Source Files/o3dDataTypes.cpp</name>
+			<type>1</type>
+			<location>/home/shaw/fuerte_workspace/sandbox/lunabotics/pmdCam/src/O3DClientLib/source/o3dDataTypes.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] o3dClientLib/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] o3dClientLib/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] o3dClientLib/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pmdCamServer</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pmdCamServer/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pmdCamServer/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pmdCamServer/Source Files/pmdCamServer.cpp</name>
+			<type>1</type>
+			<location>/home/shaw/fuerte_workspace/sandbox/lunabotics/pmdCam/src/pmdCamServer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pmdCamServer/Source Files/systemController.cpp</name>
+			<type>1</type>
+			<location>/home/shaw/fuerte_workspace/sandbox/lunabotics/pmdCam/src/systemController.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pmdCamServer/Source Files/system3d.cpp</name>
+			<type>1</type>
+			<location>/home/shaw/fuerte_workspace/sandbox/lunabotics/pmdCam/src/system3d.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pmdCamServer/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pmdCamServer/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pmdCamServer/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

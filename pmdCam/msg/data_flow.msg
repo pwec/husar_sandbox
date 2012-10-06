@@ -1,0 +1,3 @@
+bool calibration_in_progress
+bool accept_last_pair
+bool perform_calibration

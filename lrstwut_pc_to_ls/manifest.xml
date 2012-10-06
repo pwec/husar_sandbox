@@ -1,0 +1,19 @@
+<package>
+  <description brief="lrstwut_pc_to_ls">
+
+     lrstwut_pc_to_ls // "homework"
+
+  </description>
+  <author>Łukasz Godziejewski [lgodziejewski@gmail.com]</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/lrstwut_pc_to_ls</url>
+  <depend package="roscpp"/>
+  <depend package="nav_msgs"/>
+  <depend package="std_msgs"/>
+  <depend package="tf"/>
+  <depend package="sensor_msgs"/>
+
+</package>
+
+

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/O3DClientApp/!svn/ver/16/trunk/O3DClientLib/include
+END
+o3dConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/O3DClientApp/!svn/ver/10/trunk/O3DClientLib/include/o3dConfig.h
+END
+o3dCameraSettings.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/O3DClientApp/!svn/ver/1/trunk/O3DClientLib/include/o3dCameraSettings.hpp
+END
+o3dConfig.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/O3DClientApp/!svn/ver/4/trunk/O3DClientLib/include/o3dConfig.h.in
+END
+O3DClient.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/O3DClientApp/!svn/ver/4/trunk/O3DClientLib/include/O3DClient.hpp
+END
+o3dDataTypes.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/O3DClientApp/!svn/ver/1/trunk/O3DClientLib/include/o3dDataTypes.hpp
+END
+o3dCompleteData.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/O3DClientApp/!svn/ver/16/trunk/O3DClientLib/include/o3dCompleteData.hpp
+END

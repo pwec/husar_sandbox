@@ -1,0 +1,73 @@
+
+PROJECT(o3dClientLib)
+
+cmake_minimum_required(VERSION 2.8)
+
+SET( o3dClientLib_SOURCE
+    source/xml_rpc/XmlRpcClient.cpp
+    source/xml_rpc/XmlRpcDispatch.cpp
+    source/xml_rpc/XmlRpcServer.cpp
+    source/xml_rpc/XmlRpcServerConnection.cpp
+    source/xml_rpc/XmlRpcServerMethod.cpp
+    source/xml_rpc/XmlRpcSocket.cpp
+    source/xml_rpc/XmlRpcSource.cpp
+    source/xml_rpc/XmlRpcUtil.cpp
+    source/xml_rpc/XmlRpcValue.cpp
+    source/communication/clientsocket.cpp
+    source/O3DClient.cpp    
+    source/o3dCompleteData.cpp
+    source/o3dCameraSettings.cpp
+    source/o3dDataTypes.cpp
+    
+)
+
+ADD_LIBRARY( o3dClientLib 
+    ${o3dClientLib_SOURCE}
+)
+
+OPTION(O3D_USE_BOOST "Switchs on using boost" true)
+
+IF(O3D_USE_BOOST)
+
+    FIND_PATH(boost_DIR include/boost/bind.hpp PATHS "C:/boost" "/usr/local/boost"
+        NO_DEFAULT_PATH REQUIRED)
+    
+    FIND_PATH(boost_INCLUDE_DIR boost/bind.hpp
+    PATHS "C:/boost/include/boost-1_44" "/usr/local/boost/include"
+    NO_DEFAULT_PATH REQUIRED)
+
+    SET(boost_LIB_DIR ${boost_DIR}/lib/ PATH REQUIRED)
+
+
+    find_library(boost_thread
+        NAMES libboost_thread-mgw45-mt-1_44.a libboost_thread.a
+        PATHS ${boost_LIB_DIR} NO_DEFAULT_PATH
+    )
+
+    find_library(boost_signals
+        NAMES libboost_signals-mgw45-mt-1_44.a libboost_signals.a
+        PATHS ${boost_LIB_DIR} NO_DEFAULT_PATH
+    )
+    
+    SET(O3D_boost_libs
+        ${boost_thread}
+        ${boost_signals}
+    )
+
+
+ENDIF(O3D_USE_BOOST)
+
+CONFIGURE_FILE(${CMAKE_CURRENT_SOURCE_DIR}/include/o3dConfig.h.in ${CMAKE_CURRENT_SOURCE_DIR}/include/o3dConfig.h)
+
+TARGET_LINK_LIBRARIES( o3dClientLib
+    ${O3D_boost_libs}
+)
+
+INCLUDE_DIRECTORIES(
+
+    ./include
+    ./include/xml_rpc
+    
+    ${boost_INCLUDE_DIR}
+    
+)

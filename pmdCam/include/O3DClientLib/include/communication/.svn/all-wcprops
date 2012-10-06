@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/O3DClientApp/!svn/ver/1/trunk/O3DClientLib/include/communication
+END
+CPcomm3dErrors.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/O3DClientApp/!svn/ver/1/trunk/O3DClientLib/include/communication/CPcomm3dErrors.h
+END
+clientsocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/O3DClientApp/!svn/ver/1/trunk/O3DClientLib/include/communication/clientsocket.h
+END
+structs.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/O3DClientApp/!svn/ver/1/trunk/O3DClientLib/include/communication/structs.h
+END

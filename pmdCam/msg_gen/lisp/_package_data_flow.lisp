@@ -1,0 +1,8 @@
+(cl:in-package pmdCam-msg)
+(cl:export '(CALIBRATION_IN_PROGRESS-VAL
+          CALIBRATION_IN_PROGRESS
+          ACCEPT_LAST_PAIR-VAL
+          ACCEPT_LAST_PAIR
+          PERFORM_CALIBRATION-VAL
+          PERFORM_CALIBRATION
+))
